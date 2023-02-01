@@ -1,7 +1,9 @@
 <script>
 import { listHeader } from '../data';
+import Jumbotron from './_Jumbotron.vue';
 export default {
     name: 'AppHeader',
+    components: { Jumbotron },
     data() {
         return { listHeader }
     }
@@ -34,8 +36,7 @@ export default {
             </div>
 
         </div>
-
-
+        <jumbotron></jumbotron>
     </header>
 
 </template>
@@ -48,7 +49,7 @@ export default {
 header {
     background-image: url('../assets/img/mt-2236-home-bg1.jpg');
     width: 100%;
-    height: 500px;
+    min-height: 500px;
     background-position: center;
     background-size: cover;
     color: $white;
@@ -56,7 +57,12 @@ header {
     .navbar {
         background-color: $transparent-black;
         height: 100px;
+        position: fixed;
+        top: 0;
         width: 100%;
+        z-index: 1;
+
+
 
 
 
@@ -85,6 +91,8 @@ header {
                 }
             }
         }
+
+
     }
 }
 </style>
