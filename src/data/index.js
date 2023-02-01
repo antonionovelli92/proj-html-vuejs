@@ -4,4 +4,5 @@ const nomearray= {
         foto:'klndflsd'
     }
 }
-export{nomearray}
+const listHeader=['Home', 'Service', 'Courses', 'About', 'FAQ', 'Blog', 'Contact Us']
+export{nomearray, listHeader}
