@@ -15,7 +15,6 @@ export default {
 
 
 
-<script lang="scss">
+<style lang="scss">
 
-
-</script>
+</style>

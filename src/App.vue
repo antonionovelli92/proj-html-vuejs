@@ -16,8 +16,6 @@ export default {
     <app-header></app-header>
     <app-main></app-main>
     <app-footer></app-footer>
-
-    <p>CIAO</p>
 </template>
 
 
@@ -25,8 +23,4 @@ export default {
 <style lang="scss">
 @use "./assets/sass/partials/variables" as*;
 @use "./assets/sass/style.scss";
-
-p {
-    color: $yellow;
-}
 </style>
