@@ -68,8 +68,20 @@ export default {
         flex-basis: 70%;
         flex-wrap: wrap;
 
-        div {
+        .card-generic {
             flex-basis: calc(100%/2);
+            padding: 0 3px;
+            transition: transform 250ms;
+
+            h5 {
+                margin: 1rem 0;
+            }
+
+            &:hover {
+                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.537);
+                transform: translateY(-10px);
+                cursor: pointer;
+            }
         }
     }
 }
