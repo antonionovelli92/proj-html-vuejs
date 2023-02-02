@@ -24,6 +24,10 @@ export default {
                     :content="course.content" :other="course.price" class="shadow mt-3">
                 </create-card>
             </div>
+            <div class="d-flex justify-content-center my-5">
+                <button>iksjbjkd</button>
+
+            </div>
         </div>
 
 
@@ -62,9 +66,9 @@ export default {
         cursor: pointer;
     }
 
-    button {
-        display: block;
-    }
+    button {}
+
+
 
 }
 </style>

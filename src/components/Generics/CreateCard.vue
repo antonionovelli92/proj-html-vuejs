@@ -17,13 +17,11 @@ export default {
         <h5>{{ title }}</h5>
         <p>{{ content }}</p>
         <h6>{{ other }}</h6>
-        <button>jskodn</button>
+        <button class="d-none">jskodn</button>
 
     </div>
 </template>
 <style>
-button {
-    display: none;
-}
+
 </style>
 
