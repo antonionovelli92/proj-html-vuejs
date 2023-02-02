@@ -1,7 +1,7 @@
 <script>
-import { listChessEdu } from '../data';
-import { listService } from '../data';
-import CreateCard from '../components/Generics/CreateCard.vue';
+import { listChessEdu } from '../../data';
+import { listService } from '../../data';
+import CreateCard from '../Generics/CreateCard.vue';
 export default {
     name: 'SectionService',
     components: { CreateCard },

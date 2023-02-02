@@ -1,6 +1,6 @@
 <script>
-import { listCourses } from '../data';
-import CreateCard from './Generics/CreateCard.vue';
+import { listCourses } from '../../data';
+import CreateCard from '../Generics/CreateCard.vue';
 export default {
     name: 'SectionCourses',
     components: { CreateCard },

@@ -1,10 +1,10 @@
 <script>
-import SectionService from './_SectionService.vue';
-import SectionPlay from './_SectionPlay.vue';
-import SectionCourses from './_SectionCourses.vue';
-import SectionFirst from './_SectionFirst.vue';
-import SectionEvents from './_SectionEvents.vue';
-import SectionNews from './_SectionNews.vue';
+import SectionService from './Section/_SectionService.vue';
+import SectionPlay from './Section/_SectionPlay.vue';
+import SectionCourses from './Section/_SectionCourses.vue';
+import SectionFirst from './Section/_SectionFirst.vue';
+import SectionEvents from './Section/_SectionEvents.vue';
+import SectionNews from './Section/_SectionNews.vue';
 export default {
     name: 'AppMain',
     components: { SectionService, SectionPlay, SectionCourses, SectionFirst, SectionEvents, SectionNews },
