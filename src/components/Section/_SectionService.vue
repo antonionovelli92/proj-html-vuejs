@@ -58,7 +58,7 @@ export default {
             margin-top: 70px;
 
             li {
-                list-style-image: url("../assets/img/mt-2236-home-icon-bullet.png");
+                list-style-image: url("../../assets/img/mt-2236-home-icon-bullet.png");
                 font-size: 15px;
                 padding-left: 10px;
             }
