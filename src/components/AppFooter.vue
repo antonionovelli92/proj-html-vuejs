@@ -86,8 +86,8 @@ footer {
             text-decoration: none;
             color: white;
             border: 1px solid white;
-            border-radius: 50%;
             font-size: 25px;
+            padding: 5px 10px;
         }
     }
 
