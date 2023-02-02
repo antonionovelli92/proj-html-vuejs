@@ -19,10 +19,10 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../assets/sass/partials/variables' as*;
+@use '../../assets/sass/partials/variables' as*;
 
 #firstStep {
-    background-image: url('../assets/img/mt-2236-home-bg2.jpg');
+    background-image: url('../../assets/img/mt-2236-home-bg2.jpg');
     width: 100%;
     min-height: 40px;
     color: white;

@@ -11,7 +11,7 @@ export default {
             <h6>Chess is fun and we are happy to prove it at our events!</h6>
             <div class="content-summer mt-5 mb-3 d-flex justify-content-center align-items-center">
                 <figure>
-                    <img src="../../public/img/mt-2236-home-img4.jpg" alt="">
+                    <img src="../../../public/img/mt-2236-home-img4.jpg" alt="">
                 </figure>
                 <div class="text">
                     <h6>Grand Summer Tournament of 2021</h6>
@@ -25,7 +25,7 @@ export default {
             </div>
             <div class="content-summer mt-5 mb-3 d-flex justify-content-center align-items-center">
                 <figure>
-                    <img src="../../public/img/mt-2236-home-img5.jpg" alt="">
+                    <img src="../../../public/img/mt-2236-home-img5.jpg" alt="">
                 </figure>
                 <div class="text">
                     <h6>World Chess Day</h6>

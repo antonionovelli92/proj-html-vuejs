@@ -42,7 +42,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../assets/sass/partials/variables' as*;
+@use '../../assets/sass/partials/variables' as*;
 
 #service {
     h6 {

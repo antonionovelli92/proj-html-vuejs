@@ -34,7 +34,7 @@ export default {
 
 
 <style lang="scss">
-@use '../assets/sass/partials/variables' as*;
+@use '../../assets/sass/partials/variables' as*;
 
 #latest-news {
     background-color: $lightGray;

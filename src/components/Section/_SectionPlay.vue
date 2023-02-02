@@ -7,16 +7,16 @@ export default {
     <section id="playAndLearn">
         <div class="content-img d-flex">
             <figure>
-                <img src="../assets/img/mt-2236-home-gallery1.jpg" alt="">
+                <img src="../../assets/img/mt-2236-home-gallery1.jpg" alt="">
             </figure>
             <figure>
-                <img src="../assets/img/mt-2236-home-gallery2.jpg" alt="">
+                <img src="../../assets/img/mt-2236-home-gallery2.jpg" alt="">
             </figure>
             <figure>
-                <img src="../assets/img/mt-2236-home-gallery3.jpg" alt="">
+                <img src="../../assets/img/mt-2236-home-gallery3.jpg" alt="">
             </figure>
             <figure>
-                <img src="../assets/img/mt-2236-home-gallery4.jpg" alt="">
+                <img src="../../assets/img/mt-2236-home-gallery4.jpg" alt="">
             </figure>
         </div>
         <div class="content-text d-flex justify-content-center align-items-center">
@@ -33,7 +33,7 @@ export default {
     </section>
 </template>
 <style scoped lang="scss">
-@use '../assets/sass/partials/variables' as*;
+@use '../../assets/sass/partials/variables' as*;
 
 .content-img {
     figure {
