@@ -1,7 +1,8 @@
 <script>
-
+import Button from '../Generics/Button.vue';
 export default {
     name: 'SectionNews',
+    components: { Button }
 
 }
 </script>
@@ -12,7 +13,7 @@ export default {
         <div class="container d-flex content my-5">
             <div class="content-news">
                 <h2> Latest News</h2>
-                <button>skdlnsa</button>
+                <Button :buttonLabel="'View Other Posts'"></Button>
             </div>
             <div class="content-image">
                 <figure>

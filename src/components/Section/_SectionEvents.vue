@@ -1,6 +1,8 @@
 <script>
+import Button from '../Generics/Button.vue';
 export default {
     name: 'SectionEvents',
+    components: { Button }
 }
 </script>
 
@@ -21,7 +23,8 @@ export default {
                         for different levels of chess mastery with amazing prizes awarded at each level.
                     </p>
                 </div>
-                <button>kmosadnola</button>
+                <Button :buttonLabel="'Register'"></Button>
+
             </div>
             <div class="content-summer mt-5 mb-3 d-flex justify-content-center align-items-center">
                 <figure>
@@ -35,7 +38,7 @@ export default {
                         tournaments and big prizes. Registration is obligatory!
                     </p>
                 </div>
-                <button>kmosadnola</button>
+                <Button :buttonLabel="'Register'"></Button>
             </div>
         </div>
     </section>

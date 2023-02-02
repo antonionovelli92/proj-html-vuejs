@@ -1,6 +1,8 @@
 <script>
+import Button from './Generics/Button.vue';
 export default {
     name: 'Jumbotron',
+    components: { Button }
 }
 </script>
 
@@ -12,8 +14,8 @@ export default {
             <h1>ACADEMIC CHESS FOR <span>EVERYONE</span></h1>
             <p>We are dedicated to broadening and developing chess as art, recreation, and as significant element of
                 culture in Northern California.</p>
-            <button>JBKSJBAJHK</button>
-            <button>HSVDJSHV</button>
+            <Button :buttonLabel="'Enroll Now'"></Button>
+            <Button :buttonLabel="'Learn More'"></Button>
 
 
 

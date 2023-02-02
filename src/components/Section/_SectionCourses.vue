@@ -1,9 +1,10 @@
 <script>
 import { listCourses } from '../../data';
 import CreateCard from '../Generics/CreateCard.vue';
+import Button from '../Generics/Button.vue';
 export default {
     name: 'SectionCourses',
-    components: { CreateCard },
+    components: { CreateCard, Button },
     data() {
         return { listCourses }
     }
@@ -25,7 +26,8 @@ export default {
                 </create-card>
             </div>
             <div class="d-flex justify-content-center my-5">
-                <button>iksjbjkd</button>
+                <Button :buttonLabel="'Enroll Now'"></Button>
+
 
             </div>
         </div>

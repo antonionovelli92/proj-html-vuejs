@@ -1,6 +1,8 @@
 <script>
+import Button from '../Generics/Button.vue';
 export default {
     name: 'SectionFirst',
+    components: { Button }
 }
 </script>
 
@@ -11,7 +13,8 @@ export default {
                 <h3>TAKE THE <span>FIRST STEP</span></h3>
                 <h6>The fascinating world of chess has its doors open for anyone</h6>
             </div>
-            <button>bdhjkshbdv</button>
+            <Button :buttonLabel="'View More'"></Button>
+
 
         </div>
 

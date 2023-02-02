@@ -2,9 +2,10 @@
 import { listChessEdu } from '../../data';
 import { listService } from '../../data';
 import CreateCard from '../Generics/CreateCard.vue';
+import Button from '../Generics/Button.vue';
 export default {
     name: 'SectionService',
-    components: { CreateCard },
+    components: { CreateCard, Button },
     data() {
         return { listChessEdu, listService }
     }
@@ -26,7 +27,8 @@ export default {
                     <ul>
                         <li v-for="list in listChessEdu">{{ list }}</li>
                     </ul>
-                    <button>hjkgbhjvbjhvj</button>
+                    <Button :buttonLabel="'Learn More'"></Button>
+
                 </div>
                 <div class="right-zone d-flex">
                     <create-card v-for="list in listService.chess" :image="list.image" :title="list.title"

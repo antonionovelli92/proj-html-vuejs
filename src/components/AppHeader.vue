@@ -1,9 +1,10 @@
 <script>
 import { listHeader } from '../data';
 import Jumbotron from './_Jumbotron.vue';
+import Button from './Generics/Button.vue';
 export default {
     name: 'AppHeader',
-    components: { Jumbotron },
+    components: { Jumbotron, Button },
     data() {
         return { listHeader }
     }
@@ -22,7 +23,8 @@ export default {
                 <h5>
                     <fa-icon icon="fa-solid fa-phone " />Call now 123-456-7890
                 </h5>
-                <button>DONATE</button>
+                <Button :buttonLabel="'Donate'"></Button>
+
             </div>
             <div class="bottom-nav container d-flex justify-content-beetwen">
                 <figure>

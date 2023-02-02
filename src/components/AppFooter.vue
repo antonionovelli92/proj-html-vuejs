@@ -1,7 +1,8 @@
 <script>
-
+import Button from './Generics/Button.vue';
 export default {
     name: 'AppFooter',
+    components: { Button }
 }
 </script>
 
@@ -38,7 +39,7 @@ export default {
                 <div class="subscribe">
                     <h6 class="sub-text">Subscribe to get the latest news, course updates, discounts events</h6>
                     <input type="email" class="my-3 d-block">
-                    <button>bnfkdjsb</button>
+                    <Button :buttonLabel="'Subscribe'"></Button>
                 </div>
 
             </div>
