@@ -5,7 +5,7 @@ export default {
         image: String,
         title: String,
         content: String,
-
+        other: String,
     }
 };
 
@@ -16,10 +16,14 @@ export default {
         <img :src="image" alt="">
         <h5>{{ title }}</h5>
         <p>{{ content }}</p>
+        <h6>{{ other }}</h6>
+        <button>jskodn</button>
 
     </div>
 </template>
-<style scoped lang="scss">
-
+<style>
+button {
+    display: none;
+}
 </style>
 

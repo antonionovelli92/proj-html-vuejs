@@ -1,9 +1,4 @@
-const nomearray= {
-    nomeoggetto: {
-        immagine: 'ddjjd',
-        foto:'klndflsd'
-    }
-}
+
 // Creo una lista array per le voci nell'header
 const listHeader = ['Home', 'Service', 'Courses', 'About', 'FAQ', 'Blog', 'Contact Us']
 
@@ -43,5 +38,31 @@ const listService = {
   ]
     
 }
-export { nomearray, listHeader, listChessEdu,listService }
+// Creo una lista array di oggi per la section Courses
+const listCourses = {
+    course: [
+        {
+            image: '/img/mt-2236-home-img1.jpg',
+            title: 'Garry Kasparov Masterclass Lesson',
+            content: 'Learn the tips, tricks, and strategies. More trips and tricks, check out',
+            price: '$456'
+        },
+        {
+            image: '/img/mt-2236-home-img2.jpg',
+            title: 'Online Chess Lessons for Beginners',
+            content: 'Catered to adult beginners who have a few hours a week to practice',
+            price: '$205'
+        },
+        {
+            image: '/img/mt-2236-home-img3.jpg',
+            title: 'International Chess School Online',
+            content: 'Chess lessons for children and adults held completely online',
+            price: '$356'
+        },
+       
+    ]
+}
+
+
+export {  listHeader, listChessEdu,listService,listCourses }
 

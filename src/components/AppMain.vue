@@ -1,8 +1,10 @@
 <script>
 import SectionService from './_SectionService.vue';
+import SectionPlay from './_SectionPlay.vue';
+import SectionCourses from './_SectionCourses.vue';
 export default {
     name: 'AppMain',
-    components: { SectionService },
+    components: { SectionService, SectionPlay, SectionCourses },
     data() {
         return
     }
@@ -13,6 +15,8 @@ export default {
 <template>
     <main>
         <section-service></section-service>
+        <section-play></section-play>
+        <section-courses></section-courses>
     </main>
 
 </template>

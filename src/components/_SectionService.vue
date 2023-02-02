@@ -13,10 +13,10 @@ export default {
 
 <template>
     <section id="service">
-        <div class="container mt-5">
+        <div class="container mt-5 mb-5">
             <h2 class="text-center">OUR SERVICE</h2>
             <h6 class="text-center">We make your child happ day after day</h6>
-            <div class="service-content d-flex">
+            <div class="service-content mt-5 d-flex">
                 <div class="left-zone">
                     <h5>Chess Education</h5>
                     <h6>Popular education for you child amd you</h6>
@@ -26,7 +26,7 @@ export default {
                     <ul>
                         <li v-for="list in listChessEdu">{{ list }}</li>
                     </ul>
-
+                    <button>hjkgbhjvbjhvj</button>
                 </div>
                 <div class="right-zone d-flex">
                     <create-card v-for="list in listService.chess" :image="list.image" :title="list.title"
