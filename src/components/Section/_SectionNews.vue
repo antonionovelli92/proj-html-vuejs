@@ -16,13 +16,13 @@ export default {
             </div>
             <div class="content-image">
                 <figure>
-                    <img src="../assets/img/mt-2236-blog-img1.jpg" alt="">
+                    <img src="../../assets/img/mt-2236-blog-img1.jpg" alt="">
                 </figure>
                 <figcaption> The most common mistakes when managing personal finances</figcaption>
             </div>
             <div class="content-image">
                 <figure>
-                    <img src="../assets/img/mt-2236-blog-img2.jpg" alt="">
+                    <img src="../../assets/img/mt-2236-blog-img2.jpg" alt="">
                 </figure>
                 <figcaption> Methods of the recruitment</figcaption>
             </div>
