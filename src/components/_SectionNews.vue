@@ -9,7 +9,7 @@ export default {
 
 <template>
     <section id="latest-news">
-        <div class="container d-flex content mt-5">
+        <div class="container d-flex content my-5">
             <div class="content-news">
                 <h2> Latest News</h2>
                 <button>skdlnsa</button>
