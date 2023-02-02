@@ -23,7 +23,7 @@ export default {
         </div>
         <div class="content-text d-flex justify-content-center align-items-center">
             <figure>
-                <img src="../assets/img/mt-2236-home-icon5.png" alt="">
+                <img src="../../assets/img/mt-2236-home-icon5.png" alt="">
             </figure>
             <div class="title mx-5">
                 <h3>PLAY & LEARN</h3>
