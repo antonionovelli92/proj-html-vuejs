@@ -26,7 +26,7 @@ export default {
                 </create-card>
             </div>
             <div class="d-flex justify-content-center my-5">
-                <Button :buttonLabel="'Enroll Now'"></Button>
+                <Button :buttonLabel="'Enroll Now'" class="Learn"></Button>
 
 
             </div>

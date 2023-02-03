@@ -23,7 +23,7 @@ export default {
                         for different levels of chess mastery with amazing prizes awarded at each level.
                     </p>
                 </div>
-                <Button :buttonLabel="'Register'"></Button>
+                <Button :buttonLabel="'Register'" class="Enroll"></Button>
 
             </div>
             <div class="content-summer mt-5 mb-3 d-flex justify-content-center align-items-center">
@@ -38,7 +38,7 @@ export default {
                         tournaments and big prizes. Registration is obligatory!
                     </p>
                 </div>
-                <Button :buttonLabel="'Register'"></Button>
+                <Button :buttonLabel="'Register'" class="Enroll"></Button>
             </div>
         </div>
     </section>

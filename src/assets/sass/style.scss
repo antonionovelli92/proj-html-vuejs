@@ -19,3 +19,36 @@ section{
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0);
 }
+
+.Donate{
+    padding: 5px 28px;
+        border-radius: 8px;
+    background-color: $lightGray;
+    font-size: 13px;
+&:hover{
+    cursor: pointer;
+    background-color: $darkGray;
+    color: white;
+    transition: 2s;
+}
+}
+.Enroll, .Learn{
+padding: 5px 35px;
+font-size: 13px;
+margin-right: 15px;
+&:hover {
+        cursor: pointer;
+        background-color: $darkGray;
+        color: white;
+        transition: 2s;
+    }
+}
+.Enroll{
+    background-color: $yellow;
+    color: white;
+}
+.Learn{
+    background-color: transparent;
+    color: white;
+    border: 0.3px solid white;
+}

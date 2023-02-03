@@ -23,7 +23,7 @@ export default {
                 <h5>
                     <fa-icon icon="fa-solid fa-phone " />Call now 123-456-7890
                 </h5>
-                <Button :buttonLabel="'Donate'"></Button>
+                <Button :buttonLabel="'Donate'" class="Donate"></Button>
 
             </div>
             <div class="bottom-nav container d-flex justify-content-beetwen">

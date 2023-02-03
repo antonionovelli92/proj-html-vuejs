@@ -13,7 +13,7 @@ export default {
                 <h3>TAKE THE <span>FIRST STEP</span></h3>
                 <h6>The fascinating world of chess has its doors open for anyone</h6>
             </div>
-            <Button :buttonLabel="'View More'"></Button>
+            <Button :buttonLabel="'View More'" class="Enroll"></Button>
 
 
         </div>

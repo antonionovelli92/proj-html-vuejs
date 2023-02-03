@@ -14,8 +14,8 @@ export default {
             <h1>ACADEMIC CHESS FOR <span>EVERYONE</span></h1>
             <p>We are dedicated to broadening and developing chess as art, recreation, and as significant element of
                 culture in Northern California.</p>
-            <Button :buttonLabel="'Enroll Now'"></Button>
-            <Button :buttonLabel="'Learn More'"></Button>
+            <Button :buttonLabel="'Enroll Now'" class="Enroll"></Button>
+            <Button :buttonLabel="'Learn More'" class="Learn"></Button>
 
 
 

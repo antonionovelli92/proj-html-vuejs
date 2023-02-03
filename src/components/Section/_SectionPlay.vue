@@ -29,7 +29,7 @@ export default {
                 <h3>PLAY & LEARN</h3>
                 <h6>Take a look into our day to day life here at Chess School</h6>
             </div>
-            <Button :buttonLabel="'Learn More'"></Button>
+            <Button :buttonLabel="'Learn More'" class="Learn"></Button>
 
         </div>
 

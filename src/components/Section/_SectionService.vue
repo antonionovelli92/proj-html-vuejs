@@ -27,7 +27,7 @@ export default {
                     <ul>
                         <li v-for="list in listChessEdu">{{ list }}</li>
                     </ul>
-                    <Button :buttonLabel="'Learn More'"></Button>
+                    <Button :buttonLabel="'Learn More'" class="Enroll"></Button>
 
                 </div>
                 <div class="right-zone d-flex">
