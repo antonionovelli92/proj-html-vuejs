@@ -13,7 +13,7 @@ export default {
         <div class="container d-flex content my-5">
             <div class="content-news">
                 <h2> Latest News</h2>
-                <Button :buttonLabel="'View Other Posts'" class="Learn"></Button>
+                <Button :buttonLabel="'View Other Posts'" class="Learn-special"></Button>
             </div>
             <div class="content-image">
                 <figure>

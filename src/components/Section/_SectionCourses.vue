@@ -26,7 +26,7 @@ export default {
                 </create-card>
             </div>
             <div class="d-flex justify-content-center my-5">
-                <Button :buttonLabel="'Enroll Now'" class="Learn"></Button>
+                <Button :buttonLabel="'Enroll Now'" class="Learn-special"></Button>
 
 
             </div>
@@ -68,7 +68,9 @@ export default {
         cursor: pointer;
     }
 
-    button {}
+    .Learn {
+        color: black;
+    }
 
 
 
