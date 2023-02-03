@@ -10,7 +10,7 @@ export default {
 <template>
     <footer>
         <div class="container">
-            <div class="content d-flex align-items-center justify-content-between justify-content-between">
+            <div class="content d-flex  justify-content-between justify-content-between">
                 <div class=" logo">
                     <img src="../assets/img/mt-2236-home-logo.png" alt="">
                 </div>
@@ -39,7 +39,7 @@ export default {
                 <div class="subscribe">
                     <h6 class="sub-text">Subscribe to get the latest news, course
                         updates, discounts events</h6>
-                    <input type="email" class="my-3 d-block" placeholder="Enter your e-mail here *">
+                    <input type="email" class="my-3 d-block w-100" placeholder="Enter your e-mail here *">
                     <Button :buttonLabel="'Subscribe'" class="Enroll"></Button>
                 </div>
 
