@@ -23,6 +23,7 @@ export default {
             <div class="content-cards d-flex justify-content-center">
                 <create-card v-for="course in listCourses.course" :image="course.image" :title="course.title"
                     :content="course.content" :other="course.price" class="shadow mt-3">
+                    <Button :buttonLabel="'View More'" class="Enroll"></Button>
                 </create-card>
             </div>
             <div class="d-flex justify-content-center my-5">
@@ -68,9 +69,7 @@ export default {
         cursor: pointer;
     }
 
-    .Learn {
-        color: black;
-    }
+
 
 
 

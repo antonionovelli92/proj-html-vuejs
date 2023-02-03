@@ -37,7 +37,8 @@ export default {
                     </ul>
                 </div>
                 <div class="subscribe">
-                    <h6 class="sub-text">Subscribe to get the latest news, course updates, discounts events</h6>
+                    <h6 class="sub-text" placeholder="Enter your e-mail here *">Subscribe to get the latest news, course
+                        updates, discounts events</h6>
                     <input type="email" class="my-3 d-block">
                     <Button :buttonLabel="'Subscribe'" class="Enroll"></Button>
                 </div>

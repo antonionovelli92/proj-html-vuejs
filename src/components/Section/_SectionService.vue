@@ -32,7 +32,8 @@ export default {
                 </div>
                 <div class="right-zone d-flex">
                     <create-card v-for="list in listService.chess" :image="list.image" :title="list.title"
-                        :content="list.content"></create-card>
+                        :content="list.content">
+                    </create-card>
 
                 </div>
             </div>

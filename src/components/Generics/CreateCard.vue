@@ -17,8 +17,7 @@ export default {
         <h5>{{ title }}</h5>
         <p>{{ content }}</p>
         <h6>{{ other }}</h6>
-        <button class="d-none">jskodn</button>
-
+        <slot></slot>
     </div>
 </template>
 <style>
