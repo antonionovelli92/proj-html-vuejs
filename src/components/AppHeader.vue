@@ -26,7 +26,7 @@ export default {
                 <Button :buttonLabel="'Donate'" class="Donate"></Button>
 
             </div>
-            <div class="bottom-nav container d-flex justify-content-beetwen">
+            <div class="bottom-nav container d-flex justify-content-beetwen mb-3">
                 <figure>
                     <a href="#"><img src="../assets/img/mt-2236-home-logo.png" alt="logo-chess"></a>
                 </figure>

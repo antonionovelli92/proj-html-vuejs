@@ -33,7 +33,8 @@ export default {
 
 .jumbo-content {
     margin-top: 150px;
-    padding-right: 50%;
+    padding-right: 40%;
+    margin-bottom: 130px;
 
     h5 {
         background-color: $yellow;
